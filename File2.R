@@ -8,7 +8,7 @@ x2
 y
 ls() #variables in env
 women
-
+?women
 ?AirPassengers
 data() # datasets available for use
 
@@ -20,7 +20,7 @@ help(mean)
 x=0:10
 x
 x <- c(0:10, 50)
-x
+mean(x)
 xm <- mean(x)
 xm
 mean(x, trim = 0.10)
